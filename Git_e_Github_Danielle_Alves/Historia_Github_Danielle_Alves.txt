@@ -1,0 +1,24 @@
+Quem inventou o sistema de controle de versão Git e por quê?
+
+Toda a história da criação do Git se dá em torno do Kernel ** O kernel é o componente principal de um sistema operacional Linux e a interface central entre o hardware e os processos executados por um computador. Ele estabelece a comunicação entre ambos, gerenciando recursos com a maior eficiência possível. A palavra "kernel" em inglês significa grão (uma semente revestida por uma casca dura) e é seguindo essa analogia que ele existe dentro do sistema operacional e controla todas as principais funções do hardware, seja ele um smartphone, um laptop, um servidor ou qualquer outro tipo de computador. ** do Linux. Ele e seu versionamento foram mantidos durante muito tempo no Bitkeeper, mas a empresa por trás dele, a BitMoover, resolveu ir para uma linha de comercialização do licenciamento de acesso ao software.
+
+Por um tempo, ela permitiu que os desenvolvedores do kernel do Linux usassem a versão gratuita (Freeware), mas um dos mantenedores, Andrew Tridgell, desenvolveu uma versão open source do client, uma ferramenta que poderia trabalhar com o código fonte armazenado no BitKeeper. Porém, a BitMoover ficou extremamente insatisfeita e considerou como violação da licença e engenharia reversa a criação desse client.
+
+Após meses de negociação, esse acesso gratuito foi revogado e surgiu a necessidade da criação de algo que não só substituísse. Mas fosse melhor que o Bitkeeper. Linus e todas as pessoas que mantinham o Kernel começaram a busca, mas nenhuma das opções de controle de versão descentralizadas disponíveis atendiam às necessidades. 
+
+Nasce, então, o Git com a proposta de resolver a necessidade de um sistema de distribuição descentralizada, e que seguisse a filosofia de software livre, assim como o Linux, e sem se preocupar em ficar preso a uma ferramenta proprietária que de um dia pro outro os criadores resolvessem comercializá-lo. 
+
+Visto de um ângulo técnico, o Git é uma ferramenta semelhante ao Bitkeeper por trabalhar de forma distribuída e uma coisa que acho interessante é que grande parte do flow que conhecemos no Git, veio do flow aprendido com o uso do Bitkeeper. Porém, mesmo com essa semelhança a ideia nunca foi ter um clone.
+
+Quando foi criado, a pretensão era resolver exclusivamente o problema relacionado ao Kernel do Linux. Mas hoje o Git se tornou uma das ferramentas mais utilizadas no mundo inteiro para controle de versão.
+
+
+
+ Quem atualmente é o dono do Github e por quê?
+
+A aquisição do GitHub pela Microsoft por US$ 7,5 bilhões.
+Satya Nadella, diretor executivo da Microsoft, reafirma a nova postura da Microsoft frente ao código aberto, dizendo: "A Microsoft é uma empresa que desenvolve em primeiro plano e, ao unir forças com o GitHub, fortalecemos nosso compromisso com a liberdade, a abertura e a inovação dos desenvolvedores. Reconhecemos a responsabilidade da comunidade que assumimos com este acordo e faremos o nosso melhor trabalho para capacitar cada desenvolvedor a construir, inovar e resolver os desafios mais prementes do mundo."[3]
+
+
+
+Existe outra maneira, além do terminal, de trabalhar com o Github?
