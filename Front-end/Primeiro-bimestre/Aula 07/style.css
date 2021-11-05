@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+div {
+    
+    height: 1280px;
+    width: 720px;
+    text-align: center;
+
+    
+}
+
+body {
+
+    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2019/01/fundo-banner-png24.png?fit=1919%2C1487&ssl=1);
+}
+
+h1 {
+    
+    font-size: 100px;
+    text-align: center;
+
+}
+
+button {
+
+    background-color: darkgoldenrod;
+    height: 85px;
+    width: 85px;
+    border-radius: 25px;
+    border-color: darkgoldenrod;
+    margin: 0 auto;
+
+
+}
+
