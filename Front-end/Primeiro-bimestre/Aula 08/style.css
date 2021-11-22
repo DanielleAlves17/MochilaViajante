@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    height: 2000px;
+    background-image: url(https://images2.alphacoders.com/835/thumb-1920-835736.jpg);/*a imagem funciona*/
+}
+
+h1 {
+
+    position: fixed;
+    z-index: 100;
+}
+
+header {
+
+    color: yellowgreen;
+    background-color: rgb(194, 34, 34);
+    font-style: normal;
+    padding: 12px 32 px;
+    top: 45px;
+    position: fixed;
+    z-index: 100;
+    
+    
+}
+
+.quadrado {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+
+
+}
+
+.primeiro-quadrado {
+
+    
+    background-color: darkmagenta;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+.segundo-quadrado {
+
+    background-color: red;
+    position: relative;/*baseado onde deveria estar o objeto*/
+    top: 200px;
+    left: 40px;
+    right: 50px;
+    
+}
+
+
+.terceiro-quadrado{
+
+
+    background-color: darkslateblue;
+   
+}

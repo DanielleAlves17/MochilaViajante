@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(imagens/brigadeiro-gourmet-de-sabores-variados-1024x576.jpg);
+}
+
+h1{
+    text-align: center;
+    color: floralwhite;
+    margin-top: 12px;
+}
+
+p {
+    color: floralwhite;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+
+div{
+    background-color: floralwhite;
+    padding: 12px;
+}
+
+legend {
+    color: floralwhite;
+}

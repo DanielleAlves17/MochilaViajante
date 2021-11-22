@@ -1,0 +1,58 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    text-align: center;
+    position: fixed;
+    padding: 24px;
+    background-color: deeppink;
+
+
+}
+
+body {
+
+    background-image: url(https://lh3.googleusercontent.com/proxy/zHn1OqJc24DBdlQi4ULJFuYkNaS-L9wrl0VKWomt6RfM9Aq5cxHmasOmNYT57pMvyvFgJPzHZwKO-RYxZ1TajDRdXGEMAKZ3J1l-VbPSwskP7fctadjRaJWUTCGlCnorpAw);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+.batons {
+
+
+    height: 350px;
+    width: 350px;
+    margin-bottom: 12px;
+
+}
+
+.primeirotipo{
+
+    background-color: fuchsia;
+
+
+}
+
+.segundotipo{
+
+    background-color: ghostwhite;
+}
+
+.terceirotipo{
+
+    background-color: royalblue;
+}
+
+.whats{
+
+    background-image: url(https://w7.pngwing.com/pngs/507/666/png-transparent-computer-icons-whatsapp-whatsapp-text-logo-silhouette.png);
+    background-position:right;
+    width: 100px;
+    height: 100px;
+
+}

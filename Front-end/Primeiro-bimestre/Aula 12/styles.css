@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.stack.imgur.com/SvWWN.png);
+
+}
+
+h1 {
+    margin: 24px;
+    padding: 12px;
+    color:whitesmoke
+}
+
+p{
+    text-align: center;
+    color: wheat;
+    padding-bottom: 24px;
+}
+p:hover {
+
+    background-color: royalblue;
+}
+
+p::first-letter {
+    font-size: 28px;
+
+}
+
+p::first-line {
+    background-color: rebeccapurple;
+}
+
+.button {
+    padding: 24px;
+    margin: 0 auto;
+    display:block;
+    color:oldlace;
+    background-color: orchid;
+    border-radius: 30px;
+
+}
+
+.button:hover {
+background-color: purple;
+}
+
+.checkBox {
+    width: 10px;
+    height: 10px;
+    
+}
+
+.checkBox:checked {
+    width: 20px;
+    height: 20px;
+    transition: 3s;
+}
+
+a {
+    margin: 35px;
+}
+a:visited {
+
+    color:rgb(0, 0, 0);
+}
