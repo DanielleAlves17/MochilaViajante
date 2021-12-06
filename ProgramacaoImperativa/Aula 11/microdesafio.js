@@ -78,6 +78,17 @@ function compararCalificaciones(asia, europa) {
   comparacionesAsiaEuropa[2] = asia[2] === europa[2]
   comparacionesAsiaEuropa[3] = asia[3] === europa[3]*/
 
+const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4]
+const europeScores = [8, 10, 6, 8, 10, 6, 7, 9, 5]
+
+function compareRatings(asia, europe) {
+    for (i = 0; i < asia.length; i++) {
+        console.log(asia[i] === europe[i])
+    }
+}
+
+compareRatings(asiaScores, europeScores)
+
 
 
 
