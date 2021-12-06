@@ -28,8 +28,14 @@ function maiusculas(filmes){
       return filmes
     }
     console.log(maiusculas(filmes));
+    
 
-/*2. Agora precisamos modificar afunçãode passagemde elemento() que nos permite adicionar o conteúdo de nossa matriz de filme animado à matriz de filme original.*/
+for (let x = 0; x < filmes.length; x++){
+console.log(x, " - ", filmes[x].toUpperCase());
+}
+
+
+/*2. Agora precisamos modificar afunçãode passagemdeelemento() que nos permite adicionar o conteúdo de nossa matriz de filme animado à matriz de filme original.*/
 
 let filmes = ["star wars", "totoro", "rocky", "pulp fiction", "exterminador do futuro"]
 let filmes2 = ["um lobisomen juvenil", "saw", "embalos do sabado a noite", "dançanco com lobos", "pretty woman"]
@@ -38,10 +44,27 @@ function mudando(filmes, filmes2) {
     filmes.push(filmes2.pop().toUpperCase())
 
 }
+return filmes;
 console.log(mudando(filmes, filmes2));
 
 
+
 /*3. Para este ponto se você decidiu trabalhar em um arquivo diferente em lugar para modificar o anterior, lembre-se que tivemos um infiltrado dentro de nossos filmes de animação que tivemos que tirar e salvar em outra variável antes de fazer a passagem de elementos de um array para outro!*/
+
+let animes = ["naruto", "yu yu hakusho", "dragon ball", "pokémon", "cavaleiros do zodíaco"]
+
+function passarElemento(array1, array2) {
+let impostor = array2.pop()
+let qtd = array2.length;
+        for (let i = 0; i < qtd; i++) {
+    array1.push(array2.pop().toUpperCase())
+    }
+    return array1
+}
+console.log(animes)
+
+
+
 
 /*4. Finalmente, devemos modificar nossa função comparadora para os filmes como temos feito até agora.
 
@@ -56,22 +79,5 @@ function compararCalificaciones(asia, europa) {
   comparacionesAsiaEuropa[3] = asia[3] === europa[3]*/
 
 
-function Maiuscula(array) {
-    for (let i = 0; i < arrayNome.length; i++) {
-        array[i] = array[i].toUpperCase()
-
-    }
-    console.log(array);
-}
 
 
-2. function passagemdeelemento(array1, array2) {
-    let invalido = array2.pop();
-    let qtd = array2.length;
-
-    for (let i = 0; i < qtd; i++) {
-        array1.push(array2.pop().toUpperCase())
-    }
-} console.log("esse filme é invalido", invalido);
-
-3.
