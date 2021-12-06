@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 32px;
+}
+
+@keyframes brilhando{
+    0% {
+        transform: translate(40px);
+        opacity: 0%;
+    }
+    25% {
+        transform: translate(80px);
+        opacity: 15%;
+    }
+    50% {
+        transform: translate(110px);
+        opacity: 25%;
+    }
+    75% {
+        transform: translate(140px);
+        opacity: 50%;
+    }
+    100% {
+        transform: translate(200px);
+        opacity: 100%;
+    }
+    
+}
+
+.brilho {
+    
+    font-size: 150px;
+    text-align: center;
+    animation-name: brilhando;
+    animation-duration: 4s;
+    display: block;
+  
+}
