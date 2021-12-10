@@ -10,9 +10,15 @@ let curso = {
     addAluno : function(Aluno){
         this.listaEstudantes.push(Aluno)
     },
-    verificarAprovacao: function(Aluno){ 
-      return Aluno.qntFaltas < this.faltasMax && Aluno.calcularMedia() >= this.notaAprovacao ? true : Aluno.qntFaltas === this.faltasMax ? Aluno.calcularMedia().toFixed(1) >= parseFloat(this.notaAprovacao * 1.10).toFixed(1) : false; 
-    },
+     verificarAprovacao: function (aluno) {
+    if (aluno.calcularMedia() >= curso.notaAprovacao && aluno.quantidadefaltas <= curso.faltasMax) {
+      return true;
+    } else if (aluno.quantidadefaltas == curso.faltasMax && aluno.calcularMedia() >= (1.1 * curso.notaAprovacao)){
+      return true;
+  }else{
+    return false;
+  }
+},
     alunosAprovados : function(){
         let isAprovados = []
         this.listaEstudantes.forEach((obj, index) => {
